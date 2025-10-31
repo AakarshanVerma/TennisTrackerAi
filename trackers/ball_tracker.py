@@ -4,7 +4,7 @@ import pickle
 import pandas as pd
  
 class BallTracker:
-    def __init__(self,model_path):
+    def __init__(self,model_path): 
         self.model = YOLO(model_path)
 
     def interpolate_ball_positions(self, ball_positions):
