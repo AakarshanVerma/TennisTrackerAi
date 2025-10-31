@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 import cv2 
-import pickle
+import pickle 
 import pandas as pd
 
 class BallTracker:
