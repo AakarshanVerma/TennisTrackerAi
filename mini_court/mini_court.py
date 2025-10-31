@@ -26,7 +26,6 @@ class MiniCourt():
         self.set_court_drawing_key_points()
         self.set_court_lines()
 
-
     def convert_meters_to_pixels(self, meters):
         return convert_meters_to_pixel_distance(meters,
                                                 constants.DOUBLE_LINE_WIDTH,
