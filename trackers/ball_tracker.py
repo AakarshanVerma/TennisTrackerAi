@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2 
 import pickle 
 import pandas as pd
-
+ 
 class BallTracker:
     def __init__(self,model_path):
         self.model = YOLO(model_path)
